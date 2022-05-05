@@ -3,6 +3,14 @@ header img {
     margin-bottom: 10px;
 }
 
+header {
+    margin-bottom: 70px;
+}
+header h1 
+{
+    font-size: 26px;
+}
+
 #header_h1 {
     margin-left: 25px;
     margin-right: 25px;
@@ -15,11 +23,11 @@ header img {
 
 #geolocalisation {
     width: 100%;
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(224, 224, 224);
     text-align: center;
 }
 
-#centrer {
+#div_header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,6 +40,8 @@ header img {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .fa-map-marker-alt {
@@ -53,6 +63,10 @@ header img {
 .div_fonctionnement {
     display: flex;
     align-items: center;
+}
+#titre_fonctionnement
+{
+    margin-left: 10px;
 }
 
 .numero_fonctionnement {
@@ -98,4 +112,86 @@ header img {
     color: grey;
     padding-right: 29px;
     margin-left: -41px;
+}
+
+section {
+    background-color: rgb(241, 241, 241);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+section h1 {
+    margin-left: 20px;
+}
+
+.card {
+    width: 90%;
+    height: 250px;
+    margin: 0px;
+    background-color: white;
+    box-shadow: 0px 5px 20px #999;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.card a {
+    color: #333;
+    text-decoration: none;
+}
+
+.card_image {
+    height: 70%;
+    overflow: hidden;
+    border-radius: 20px 20px 00px 00px;
+}
+
+.card_image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card_body {
+    text-align: start;
+    padding: 0px 20px;
+}
+
+.card_title {
+    font-size: 18px;
+    margin-top: -7px;
+    margin-bottom: -20px;
+}
+
+.card_lieu {
+    font-size: 19px;
+    margin-top: 0px;
+}
+
+footer {
+    background-color: rgba(15, 15, 15, 0.897);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+footer h1 {
+    margin-left: 25px;
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+}
+
+footer li {
+    list-style: none;
+    margin-left: -15px;
+}
+
+.fa-utensils {
+    padding-right: 10px;
+}
+
+.fa-handshake {
+    padding-right: 10px;
+    width: 13px;
 }

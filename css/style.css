@@ -3,13 +3,12 @@ header img {
     margin-bottom: 10px;
 }
 
-#header_h1
-{
+#header_h1 {
     margin-left: 25px;
     margin-right: 25px;
 }
-#header_p 
-{
+
+#header_p {
     font-size: 20px;
     margin: -10px 10px 25px 10px;
 }
@@ -51,15 +50,14 @@ header img {
 
 }
 
-.div_fonctionnement
-{
+.div_fonctionnement {
     display: flex;
     align-items: center;
 }
-.numero_fonctionnement
-{
+
+.numero_fonctionnement {
     border: 0px;
-    background-color:#9356DC ;
+    background-color: #9356DC;
     color: white;
     padding: 4px 8px 2px 8px;
     border-radius: 20px;
@@ -68,8 +66,8 @@ header img {
     margin-bottom: 0px;
 
 }
-.bouton_fonctionnement
-{
+
+.bouton_fonctionnement {
     background-color: rgb(241, 241, 241);
     border: 0px;
     border-radius: 18px;
@@ -83,21 +81,20 @@ header img {
     width: 100%;
     margin-bottom: 0px;
 }
-.fa-mobile
-{
+
+.fa-mobile {
     color: grey;
     padding-right: 37px;
     margin-left: -27px;
 }
 
-.fa-list
-{
-    color:gray;
+.fa-list {
+    color: gray;
     padding-right: 31px;
     margin-left: -47px;
 }
-.fa-store
-{
+
+.fa-store {
     color: grey;
     padding-right: 29px;
     margin-left: -41px;

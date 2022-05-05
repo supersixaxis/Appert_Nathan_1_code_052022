@@ -1,0 +1,104 @@
+header img {
+    width: 187px;
+    margin-bottom: 10px;
+}
+
+#header_h1
+{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#header_p 
+{
+    font-size: 20px;
+    margin: -10px 10px 25px 10px;
+}
+
+#geolocalisation {
+    width: 100%;
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+}
+
+#centrer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#exploration {
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.fa-map-marker-alt {
+    margin-right: 15px;
+}
+
+#bouton_explorer {
+    background: linear-gradient(#FF79DA, #9356DC);
+    color: white;
+    border: 0px;
+    border-radius: 30px;
+    box-shadow: 1px 3px 7px rgba(155, 155, 155, 0.74);
+    padding: 18px 20px 18px 20px;
+    margin-bottom: 40px;
+    font-size: 18px;
+
+}
+
+.div_fonctionnement
+{
+    display: flex;
+    align-items: center;
+}
+.numero_fonctionnement
+{
+    border: 0px;
+    background-color:#9356DC ;
+    color: white;
+    padding: 4px 8px 2px 8px;
+    border-radius: 20px;
+    position: relative;
+    margin-right: -10px;
+    margin-bottom: 0px;
+
+}
+.bouton_fonctionnement
+{
+    background-color: rgb(241, 241, 241);
+    border: 0px;
+    border-radius: 18px;
+    box-shadow: 1px 3px 7px rgba(155, 155, 155, 0.74);
+    padding: 23px 0px 23px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: -2px;
+    margin-right: 10px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.fa-mobile
+{
+    color: grey;
+    padding-right: 37px;
+    margin-left: -27px;
+}
+
+.fa-list
+{
+    color:gray;
+    padding-right: 31px;
+    margin-left: -47px;
+}
+.fa-store
+{
+    color: grey;
+    padding-right: 29px;
+    margin-left: -41px;
+}

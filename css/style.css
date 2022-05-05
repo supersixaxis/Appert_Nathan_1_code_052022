@@ -1,3 +1,4 @@
+/*  Code du header de la page  */
 header img {
     width: 187px;
     margin-bottom: 10px;
@@ -114,6 +115,8 @@ header h1
     margin-left: -41px;
 }
 
+/* Code de la section carte des restaurants  */
+
 section {
     background-color: rgb(241, 241, 241);
     padding-top: 30px;
@@ -167,6 +170,8 @@ section h1 {
     font-size: 19px;
     margin-top: 0px;
 }
+
+/* Code du bas de la page  */
 
 footer {
     background-color: rgba(15, 15, 15, 0.897);

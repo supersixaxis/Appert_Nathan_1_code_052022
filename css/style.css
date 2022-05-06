@@ -51,14 +51,21 @@ header h1
 
 #bouton_explorer {
     background: linear-gradient(#FF79DA, #9356DC);
-    color: white;
-    border: 0px;
     border-radius: 30px;
     box-shadow: 1px 3px 7px rgba(155, 155, 155, 0.74);
     padding: 18px 20px 18px 20px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     font-size: 18px;
 
+}
+.border_0px
+{
+    border: 0px;
+}
+
+.color_white
+{
+    color: white;
 }
 
 .div_fonctionnement {
@@ -68,12 +75,11 @@ header h1
 #titre_fonctionnement
 {
     margin-left: 10px;
+    margin-bottom: 0px;
 }
 
 .numero_fonctionnement {
-    border: 0px;
     background-color: #9356DC;
-    color: white;
     padding: 4px 8px 2px 8px;
     border-radius: 20px;
     position: relative;
@@ -84,33 +90,31 @@ header h1
 
 .bouton_fonctionnement {
     background-color: #f6f6f6;
-    border: 0px;
     border-radius: 18px;
     box-shadow: 1px 3px 7px rgba(155, 155, 155, 0.74);
     padding: 23px 0px 23px 0px;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
-    margin-left: -2px;
-    margin-right: 10px;
+    margin : 15px 10px 0px -2px;
     width: 100%;
-    margin-bottom: 0px;
 }
 
-.fa-mobile {
+.color_gray
+{
     color: grey;
+}
+.fa-mobile {
     padding-right: 37px;
     margin-left: -27px;
 }
 
 .fa-list {
-    color: gray;
     padding-right: 31px;
     margin-left: -47px;
 }
 
 .fa-store {
-    color: grey;
     padding-right: 29px;
     margin-left: -41px;
 }
@@ -120,7 +124,7 @@ header h1
 section {
     background-color: #f6f6f6;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 section h1 {
@@ -166,7 +170,8 @@ section h1 {
     margin-bottom: -20px;
 }
 
-.fa-heart
+
+.pos_absolute
 {
     position: absolute;
     right: 50px;
@@ -174,9 +179,6 @@ section h1 {
 
 .vignette_nouveau
 {
-    position: absolute;
-    right: 50px;
-    border: 0px;
     background-color: #99e2d0;
     padding: 5px 8px 5px 8px;
     color: #0a8d6d;
@@ -192,14 +194,12 @@ section h1 {
 
 footer {
     background-color: #353535;
-    color: white;
     padding-top: 10px;
     padding-bottom: 15px;
 }
 
 footer h1 {
     margin-left: 25px;
-    color: white;
     font-size: 18px;
     font-style: italic;
 }

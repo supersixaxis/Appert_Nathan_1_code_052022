@@ -24,7 +24,7 @@ header h1
 
 #geolocalisation {
     width: 100%;
-    background-color: rgb(224, 224, 224);
+    background-color: #eaeaea;
     text-align: center;
 }
 
@@ -36,7 +36,7 @@ header h1
 
 #exploration {
     text-align: center;
-    background-color: rgb(241, 241, 241);
+    background-color: #f6f6f6;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,7 +83,7 @@ header h1
 }
 
 .bouton_fonctionnement {
-    background-color: rgb(241, 241, 241);
+    background-color: #f6f6f6;
     border: 0px;
     border-radius: 18px;
     box-shadow: 1px 3px 7px rgba(155, 155, 155, 0.74);
@@ -118,7 +118,7 @@ header h1
 /* Code de la section carte des restaurants  */
 
 section {
-    background-color: rgb(241, 241, 241);
+    background-color: #f6f6f6;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -166,6 +166,23 @@ section h1 {
     margin-bottom: -20px;
 }
 
+.fa-heart
+{
+    position: absolute;
+    right: 50px;
+}
+
+.vignette_nouveau
+{
+    position: absolute;
+    right: 50px;
+    border: 0px;
+    background-color: #99e2d0;
+    padding: 5px 8px 5px 8px;
+    color: #0a8d6d;
+    box-shadow: 0px 5px 20px #999;
+}
+
 .card_lieu {
     font-size: 19px;
     margin-top: 0px;
@@ -174,7 +191,7 @@ section h1 {
 /* Code du bas de la page  */
 
 footer {
-    background-color: rgba(15, 15, 15, 0.897);
+    background-color: #353535;
     color: white;
     padding-top: 10px;
     padding-bottom: 15px;

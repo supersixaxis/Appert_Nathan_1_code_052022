@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,17 +15,112 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <title>La palette du goût</title>
 </head>
-<body>
-    <header>
-        <!-- Partie présentation et exploration -->
-        <div class="header__display">
-            <a href="index.html"><button><i class="fas fa-arrow-left"></i></button></a>
-            <picture>
-                <img src="images/ohmyfood.png" alt="logo oh my good">
-            </picture>
-        
 
+<body>
+    <header class="header__restaurant">
+        <!-- Partie Logo et image  -->
+        <a href="index.html">
+            <div class="bouton--fleche border_0px"><i class="fas fa-arrow-left"></i></div>
+        </a>
+        <picture>
+            <img class="header--logo img--ohmyfood" src="images/ohmyfood.png" alt="logo oh my good">
+        </picture>
+
+        <picture>
+            <img class="picture__restaurant" src="images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="logo oh my good">
+        </picture>
     </header>
-    
+
+    <!-- La carte du restaurant -->
+    <section id="section__restaurant">
+        <h2 id="restaurant--h1">La palette du goût<i class="fas fa-heart pos_absolute"></i></h2>
+        <p class="restaurant__menu">Entrées</p>
+        <div class="restaurant__card">
+            <h3 class="restaurant__card__title">Fricassée d'escargot</h3>
+            <div class="restaurant__card__p">
+                <p>Au piment d'espelette</p>
+                <p><strong>25€</strong></p>
+            </div>
+        </div>
+        <div class="restaurant__card">
+            <h3 class="restaurant__card__title">Foie gras de canard mi-cuit</h3>
+            <div class="restaurant__card__p">
+                <p>Et ses copeaux de truffe noire</p>
+                <p><strong>35€</strong></p>
+            </div>
+        </div>
+
+        <div class="restaurant__card">
+            <h3 class="restaurant__card__title">Oeuf au plat</h3>
+            <div class="restaurant__card__p">
+                <p>Assaisonné à la truffe sur lit de caviar</p>
+                <p><strong>20€</strong></p>
+            </div>
+        </div>
+
+        <p class="restaurant__menu">Plats</p>
+        <div class="restaurant__card">
+            <h3 class="restaurant__card__title">Filet de boeuf aux herbes</h3>
+            <div class="restaurant__card__p">
+                <p>Accompagné de sa ribambelle de légumes</p>
+                <p><strong>40€</strong></p>
+            </div>
+        </div>
+        <div class="restaurant__card">
+            <h3 class="restaurant__card__title">Parmentier de queue de boeuf</h3>
+            <div class="restaurant__card__p">
+                <p>À la truffe noire sur sa purée de panais</p>
+                <p><strong>35€</strong></p>
+            </div>
+        </div>
+
+        <div class="restaurant__card">
+            <h3 class="restaurant__card__title">Filet de turbot</h3>
+            <div class="restaurant__card__p">
+                <p>Aux agrumes</p>
+                <p><strong>44€</strong></p>
+            </div>
+        </div>
+
+        <p class="restaurant__menu">Dessert</p>
+        <div class="restaurant__card">
+            <h3 class="restaurant__card__title">Paris-Brest</h3>
+            <div class="restaurant__card__p">
+                <p>Revisité</p>
+                <p><strong>18€</strong></p>
+            </div>
+        </div>
+        <div class="restaurant__card">
+            <h3 class="restaurant__card__title">Macaron au chocolat d'exception </h3>
+            <div class="restaurant__card__p">
+                <p>Et glace à la vanille de Madagascar</p>
+                <p><strong>22€</strong></p>
+            </div>
+        </div>
+
+        <div class="restaurant__card">
+            <h3 class="restaurant__card__title">Mousse au chocolat </h3>
+            <div class="restaurant__card__p">
+                <p>Au piment d'Espelette et à la truffe noire</p>
+                <p><strong>23€</strong></p>
+            </div>
+        </div>
+        <button class="header__bouton btn--commander border_0px color_white">Commander</button>
+
+    </section>
+
+
+    <!--Bas de la page -->
+    <footer class="color_white">
+        <h1 class="color_white">ohmyfood</h1>
+        <ul>
+            <li><i class="fas fa-utensils"></i>Proposer un restaurant</li>
+            <li><i class="fas fa-handshake"></i>Devenir partenaire</li>
+            <li>Mentions légales</li>
+            <li><a href="mailto:appert.nathan@outlook.fr?">Contact</a></li>
+        </ul>
+
+    </footer>
 </body>
+
 </html>

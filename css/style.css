@@ -527,7 +527,7 @@ li a {
 }
 
 .btn--commander {
-    margin: 50px 0px 10px 75px;
+    margin: 50px 0px 10px 0px;
     padding-left: 60px;
     padding-right: 60px;
 }
@@ -536,6 +536,12 @@ button:hover {
     background: linear-gradient(#ff93e1, #a16be0);
     box-shadow: 5px 10px 12px rgba(155, 155, 155, 0.74);
 
+}
+
+.centrez {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media all and (min-width: 768px) and (max-width: 992px) {

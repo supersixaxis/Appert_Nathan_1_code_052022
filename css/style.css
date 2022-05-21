@@ -1,6 +1,7 @@
 /*  Code du header de la page  */
 p {
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .loader__position {
@@ -217,6 +218,12 @@ section {
     padding-bottom: 50px;
 }
 
+.ellispe
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 
 section h2 {

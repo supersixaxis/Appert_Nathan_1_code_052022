@@ -459,14 +459,15 @@ li a {
 .fa-heart::before
 {
     font-weight: 100;
+    
 }
 .fa-heart {
-    display: block;
+    z-index: 2;
 }
 
 
 .fa-heart:hover {
-
+    animation: like 2s forwards;
 }
 
 
@@ -474,16 +475,19 @@ li a {
 .jauge-remplissage {
     transition: all 0.3s linear 0s;
     background-color: red;
-    transform-origin: center;
     width: 100%;
-    height: 0;
-    left: 0px;
-    bottom: 0px;
+    border-radius: 20px;
+    height: 0px;
+    left: 3px;
+    right: 5px;
+    bottom: 6px;
     position: absolute;
+    z-index: -1;
 }
  
 .fa-heart:hover .jauge-remplissage {
-    height: 100%;
+    height: 90%;
+    
 }
 
 
@@ -499,7 +503,6 @@ li a {
 
     100% {
         transform: scale(1);
-        background-color: red;
     }
 }
 

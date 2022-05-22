@@ -1,7 +1,7 @@
 /*  Code du header de la page  */
 p {
     font-family: 'Roboto', sans-serif;
-    
+
 }
 
 .loader__position {
@@ -218,8 +218,7 @@ section {
     padding-bottom: 50px;
 }
 
-.ellispe
-{
+.ellispe {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -411,6 +410,7 @@ li a {
 
 }
 
+
 .fa-check {
     color: #99e2d0;
     background-color: white;
@@ -439,7 +439,7 @@ li a {
     }
 
     100% {
-        width: 80px;
+        width: 70px;
         opacity: 1;
     }
 }
@@ -463,11 +463,11 @@ li a {
     animation: rotation 1s forwards;
 }
 
-.fa-heart::before
-{
+.fa-heart::before {
     font-weight: 100;
-    
+
 }
+
 .fa-heart {
     z-index: 2;
 }
@@ -491,10 +491,10 @@ li a {
     position: absolute;
     z-index: -1;
 }
- 
+
 .fa-heart:hover .jauge-remplissage {
     height: 90%;
-    
+
 }
 
 
@@ -524,6 +524,24 @@ li a {
     justify-content: space-between;
     margin: -25px 20px 0px 10px;
     font-size: 14px;
+}
+
+.restaurant__card:hover .restaurant__card__title {
+    width: 75%;
+}
+
+.restaurant__card:hover .restaurant__card__p {
+    animation: ellips 800ms forwards;
+}
+
+@keyframes ellips {
+    0% {
+        width: 90%;
+    }
+
+    100% {
+        width: 74%;
+    }
 }
 
 .btn--commander {
@@ -630,6 +648,10 @@ button:hover {
         display: block;
         margin: auto;
         font-size: 20px;
+    }
+
+    .restaurant__card:hover .restaurant__card__title {
+        width: auto;
     }
 
     .btn--commander {

@@ -148,7 +148,6 @@ header h1 {
     margin-right: -10px;
     margin-bottom: 0px;
     z-index: 2;
-
 }
 
 .fonctionnement_bouton {
@@ -167,7 +166,6 @@ header h1 {
 
 .fonctionnement_bouton:hover::after {
     opacity: 1;
-
 }
 
 .fonctionnement_bouton::after {
@@ -186,7 +184,6 @@ header h1 {
 
 .fonctionnement_bouton:hover .fonctionnement__logo {
     color: #9356DC;
-
 }
 
 
@@ -209,7 +206,6 @@ header h1 {
     margin-left: -53px;
 }
 
-
 /* Code de la section carte des restaurants  */
 
 section {
@@ -223,7 +219,6 @@ section {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
 
 section h2 {
     margin-left: 20px;
@@ -268,7 +263,6 @@ section h2 {
     margin-top: -7px;
     margin-bottom: -20px;
 }
-
 
 .pos_absolute {
     position: absolute;
@@ -407,9 +401,7 @@ li a {
     box-shadow: 0px 5px 20px rgb(209, 209, 209);
     border-radius: 20px;
     margin-left: 16px;
-
 }
-
 
 .fa-check {
     color: #99e2d0;
@@ -477,7 +469,6 @@ li a {
     animation: like 2s forwards;
 }
 
-
 /* Remplissage de bas en haut */
 .jauge-remplissage {
     transition: all 0.3s linear 0s;
@@ -496,8 +487,6 @@ li a {
     height: 90%;
 
 }
-
-
 
 @keyframes like {
     0% {
@@ -566,16 +555,23 @@ button:hover {
     .card {
         margin-left: 25px;
     }
-
-
     section h1 {
 
         margin-left: 50px;
     }
-
-
-
-
+    .restaurant__card:hover .restaurant__card__p {
+        animation: ellips 800ms forwards;
+    }
+    
+    @keyframes ellips {
+        0% {
+            width: 95%;
+        }
+    
+        100% {
+            width: 85%;
+        }
+    }
 }
 
 @media all and (min-width: 993px) {
@@ -586,7 +582,6 @@ button:hover {
     .fonctionnement_bouton {
         width: 700px;
         margin-top: 30px;
-
     }
 
     .fonctionnement__colonne {
@@ -599,7 +594,6 @@ button:hover {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-
     }
 
     .card {
@@ -618,7 +612,6 @@ button:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
 
     .restaurant__menu {

@@ -426,7 +426,7 @@ li a {
 
 @keyframes slide {
     0% {
-        width: 0;
+        width: 0px;
         opacity: 0;
     }
 
@@ -455,13 +455,11 @@ li a {
     animation: rotation 1s forwards;
 }
 
-.fa-heart::before {
-    font-weight: 100;
 
-}
 
 .fa-heart {
     z-index: 2;
+    font-size: 30px;
 }
 
 
@@ -471,20 +469,23 @@ li a {
 
 /* Remplissage de bas en haut */
 .jauge-remplissage {
-    transition: all 0.3s linear 0s;
-    background-color: red;
-    width: 100%;
-    border-radius: 20px;
-    height: 0px;
-    left: 3px;
-    right: 5px;
-    bottom: 6px;
     position: absolute;
+    top: 14px;
+    left: 17px;
+    font-size: 0px;
+    transition: top 0.5s, font-size 0.5s, left 0.5s;
+    background: linear-gradient(#FF79DA, #9356DC);;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     z-index: -1;
 }
 
+
 .fa-heart:hover .jauge-remplissage {
-    height: 90%;
+    top: 2px;
+    font-size: 29px;
+    left: 0px;
 
 }
 
@@ -498,7 +499,7 @@ li a {
     }
 
     100% {
-        transform: scale(1);
+        transform: scale(1.1);
     }
 }
 

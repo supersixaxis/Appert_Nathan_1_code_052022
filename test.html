@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+    <title>Test</title>
+    <style>
+        .coeur-contenant {
+            display: inline-block;
+            position: relative;
+            font-size: 100px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .coeur-colore {
+            position: absolute;
+            top: 85px;
+            left: 50px;
+            font-size: 0px;
+            transition: top 0.5s, font-size 0.5s, left 0.5s;
+            background: linear-gradient(to bottom, yellow 0%,red 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .coeur-contenant:hover .coeur-colore {
+            top: 8px;
+            font-size: 84px;
+            left: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <i class="far fa-heart"></i> <!-- Coeur vide -->
+        <i class="fas fa-heart"></i> <!-- Coeur rempli -->
+    </div>
+    <div>
+        <i class="far fa-heart coeur-contenant">
+            <i class="fas fa-heart coeur-colore"></i>
+        </i>
+    </div>
+</body>

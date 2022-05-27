@@ -447,9 +447,11 @@ li a {
         transform: rotate(360deg);
     }
 }
-.restaurant__card:hover{
+
+.restaurant__card:hover {
     cursor: pointer;
 }
+
 .restaurant__card:hover .restaurant__check {
     animation: slide 1s forwards;
 }
@@ -463,22 +465,24 @@ li a {
 .fa-heart {
     z-index: 2;
     font-size: 30px;
+    
 }
 
-
-.fa-heart:hover {
-    animation: like 2s forwards;
+.far:hover
+{
+    animation: like 0.5s forwards;
     cursor: pointer;
 }
+
 
 /* Remplissage de bas en haut */
 .jauge-remplissage {
     position: absolute;
     top: 14px;
-    left: 17px;
+    left: 17.1px;
     font-size: 0px;
-    transition: top 0.5s, font-size 0.5s, left 0.5s;
-    background: linear-gradient(#FF79DA, #9356DC);;
+    transition: 0.5s;
+    background: linear-gradient(#FF79DA, #9356DC);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -487,17 +491,12 @@ li a {
 
 
 .fa-heart:hover .jauge-remplissage {
-    top: 2px;
+    top: 1.5px;
     font-size: 29px;
     left: 0px;
-
-
 }
 
 @keyframes like {
-    0% {
-        transform: scale(0.2);
-    }
 
     40% {
         transform: scale(1.2);
@@ -561,19 +560,21 @@ button:hover {
     .card {
         margin-left: 25px;
     }
+
     section h1 {
 
         margin-left: 50px;
     }
+
     .restaurant__card:hover .restaurant__card__p {
         animation: ellips 800ms forwards;
     }
-    
+
     @keyframes ellips {
         0% {
             width: 95%;
         }
-    
+
         100% {
             width: 85%;
         }

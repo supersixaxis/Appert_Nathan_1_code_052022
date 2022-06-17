@@ -145,7 +145,6 @@ header h1 {
     background-color: #9356DC;
     padding: 4px 8px 2px 8px;
     border-radius: 20px;
-    position: relative;
     margin-right: -10px;
     margin-bottom: 0px;
     z-index: 2;
@@ -411,6 +410,7 @@ li a {
     border-radius: 20px;
     transition: transform 1s ease-out;
 }
+
 
 .restaurant__check {
     display: flex;
